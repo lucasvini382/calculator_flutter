@@ -1,9 +1,13 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
+/// Componente responsável por buildar o display da calculadora
 class Display extends StatelessWidget {
+
+  /// Número a ser exibido no display da calculadora
   final String text;
 
+  /// Construtor do componente
   const Display(this.text, {super.key});
 
   @override

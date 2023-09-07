@@ -2,9 +2,14 @@ import 'package:calculator_flutter/components/button.dart';
 import 'package:calculator_flutter/components/button_row.dart';
 import 'package:flutter/material.dart';
 
+/// Componente do teclado da calculadora
 class Keyboard extends StatelessWidget {
+
+  /// Função de callback do teclado, responsável por passar o valor para
+  /// a classe de memória.
   final void Function(String) cb;
 
+  /// Construtor do componente
   const Keyboard(this.cb, {super.key});
 
   @override

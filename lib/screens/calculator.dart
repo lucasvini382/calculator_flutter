@@ -4,6 +4,7 @@ import 'package:calculator_flutter/models/memory.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+/// Tela que une o display com o teclado da calculadora.
 class Calculator extends StatefulWidget {
   const Calculator({super.key});
 
@@ -22,6 +23,8 @@ class _CalculatorState extends State<Calculator> {
 
   @override
   Widget build(BuildContext context) {
+
+    /// Seta a orientação da aplicação como retrato.
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp
     ]);

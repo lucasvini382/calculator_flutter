@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'button.dart';
 
+/// Componente que será responsável por montar uma linha de botões.
 class ButtonRow extends StatelessWidget {
+
+  /// Lista de botões a serem buildados.
   final List<Button> buttons;
 
+  /// Construtor do componente.
   const ButtonRow(this.buttons, {super.key});
 
   @override
