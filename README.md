@@ -4,13 +4,8 @@ Calculator project to increase knowledge in Flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app was created to put some Flutter concepts into practice. It is very similar to the calculators present in Apple devices.
+It was built with the support of the following video: https://www.youtube.com/watch?v=jyjdXFsQoYw
 
-A few resources to get you started if this is your first Flutter project:
+![ezgif com-video-to-gif](https://github.com/lucasvini382/calculator_flutter/assets/77305388/993a8c16-c606-4196-bb56-7c79eadd71df)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
